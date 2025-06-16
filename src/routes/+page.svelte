@@ -11,12 +11,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+	title="Learn data and AI. Work smarter."
+	subtitle="Build skills with real-world practice and support."
+	imageSrc="/generated/image-a-young-professional-dressed-in-smart-ca.webp"
+	centered={false}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		"https://logo.clearbit.com/accenture.com",
+		"https://logo.clearbit.com/pwc.com",
+		"https://logo.clearbit.com/airbnb.com",
+		"https://logo.clearbit.com/target.com"
+	]}
+/>
 
 <Summary
 	generating
